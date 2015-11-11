@@ -9,7 +9,7 @@ If you would encounter any problems with UI, here is REST description
 {
     "pointA":"a1",
     "pointB":"a2",
-    estimate: 42
+    "estimate": 42
 }
 
 Possible errors: not all parameters are present
@@ -19,7 +19,7 @@ Possible errors: not all parameters are present
 {
     "pointA":"a1",
     "pointB":"a2",
-    estimate: 24
+    "estimate": 24
 }
 
 Possible errors: not all parameters are present
@@ -29,7 +29,7 @@ Possible errors: not all parameters are present
 {
     "pointA":"a1",
     "pointB":"a2",
-    calculate: true
+    "calculate": true
 }
 
 Possible errors: not all parameters are present, points are not connected
