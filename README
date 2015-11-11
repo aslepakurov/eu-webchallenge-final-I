@@ -1,0 +1,50 @@
+If you would encounter any problems with UI, here is REST description
+
+=========================================================================================
+
+#1 [http://localhost:8080/rest/krapoint/path/submit] [POST]
+
+----This will create new path----
+
+{
+    "pointA":"a1",
+    "pointB":"a2",
+    estimate: 42
+}
+
+Possible errors: not all parameters are present
+
+----This will update new path if it already exists----
+
+{
+    "pointA":"a1",
+    "pointB":"a2",
+    estimate: 24
+}
+
+Possible errors: not all parameters are present
+
+----This will get time of the shortest path between tow points that are connected----
+
+{
+    "pointA":"a1",
+    "pointB":"a2",
+    calculate: true
+}
+
+Possible errors: not all parameters are present, points are not connected
+
+=========================================================================================
+
+#2 [http://localhost:8080/rest/krapoint/path/delete] [POST]
+
+----This will delete the path----
+
+{
+    "pointA":"a1",
+    "pointB":"a2"
+}
+
+Possible errors: there is no such path
+
+=========================================================================================
