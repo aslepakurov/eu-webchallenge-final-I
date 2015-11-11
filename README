@@ -1,6 +1,6 @@
 If you would encounter any problems with UI, here is REST description
 
-=========================================================================================
+================================================================================
 
 #1 [http://localhost:8080/rest/krapoint/path/submit] [POST]
 
@@ -34,7 +34,7 @@ Possible errors: not all parameters are present
 
 Possible errors: not all parameters are present, points are not connected
 
-=========================================================================================
+================================================================================
 
 #2 [http://localhost:8080/rest/krapoint/path/delete] [POST]
 
@@ -47,4 +47,4 @@ Possible errors: not all parameters are present, points are not connected
 
 Possible errors: there is no such path
 
-=========================================================================================
+================================================================================
