@@ -38,7 +38,9 @@ http://localhost:8080/rest/krapoint/path/delete (POST)
 ```
 
 ###Request body example
+```
 {
     "pointA":"a1",
     "pointB":"a2"
 }
+```
