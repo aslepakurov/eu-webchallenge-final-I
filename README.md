@@ -16,7 +16,7 @@ http://localhost:8080/rest/krapoint/path/submit (POST)
 }
 ```
 
-##Get time of the shortest path between tow points that are connected----
+##Get time of the shortest path between two points that are connected
 
 ``` 
 http://localhost:8080/rest/krapoint/path/submit (POST)
